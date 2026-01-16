@@ -12,7 +12,7 @@ from ai import aiProcess
 recognizer = sr.Recognizer()
 
 # News API key
-newsapi = "23f69feb7cc842f19caee9365bd841a7"
+newsapi = "YOUR_NEWS_API"
 
 
 def speak(text):
@@ -110,3 +110,4 @@ if __name__ == "__main__":
 
         except Exception as e:
             print("Error:", e)
+
